@@ -198,7 +198,7 @@ export default {
     },
     {
       img: instagramIcon,
-      url: "https://www.instagram.com/",
+      url: "https://www.instagram.com/miab.ee/",
     },
   ],
 
