@@ -11,6 +11,17 @@ import githubIcon from "./images/github.svg"
 import codepenIcon from "./images/codepen.svg"
 import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
+import linkedinIcon from "./images/linkedin.svg"
+import mediumIcon from "./images/medium.svg"
+import facebookIcon from "./images/facebook.svg"
+import photoshopIcon from "./images/photoshop.svg"
+import paintingIcon from "./images/painting.svg"
+import languageIcon from "./images/language.svg"
+import kassiha from "./images/kassiha-2025.png"
+
+
+
+
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -31,7 +42,7 @@ export default {
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
 
   //Contact Email
-  contactEmail: "hello@mia.com",
+  contactEmail: "hello@miabellouere.com",
 
   // End Header Details -----------------------
 
@@ -39,18 +50,18 @@ export default {
   projects: [
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
-      title: "Project One", //Project Title - Add Your Project Title Here
+      title: "kassiha2025", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "https://i.imgur.com/YXZo38v.png",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://i.imgur.com/xSDHqef.png",
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Two", //Project Title - Add Your Project Title Here
+      title: "BuzzStart", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
@@ -61,17 +72,17 @@ export default {
     },
     {
       id: 3, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Three", //Project Title - Add Your Project Title Here
+      title: "Communications Manager", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "https://reachvolunteering.org.uk/sites/default/files/styles/medium/public/Screenshot%202020-07-22%20at%2017.17.55.png?itok=DQLpe-dL",
       //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
     },
     {
-      id: 4, //DO NOT CHANGE THIS (Please)😅
+      id: 4, //DO NOT CHANGE THIS (Please)😅️
       title: "Project Four", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
@@ -120,11 +131,11 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-  aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "Hi I’m Mia. I love learning about life through creative mediums and want to produce interesting content for others. Born into a half British half Algerian family, my mathematically average origin is Tournus in France according to whatshalfway.com.",
+  // aboutParaTwo:
+  //   "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  // aboutParaThree:
+  //   "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   aboutImage:
     "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
 
@@ -137,21 +148,21 @@ export default {
   skills: [
     {
       id: 1,
-      img: htmlIcon,
+      img: languageIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Languages: English (native), French, Korean",
     },
     {
       id: 2,
-      img: cssIcon,
+      img: photoshopIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Adobe Photoshop (CS5, CS6, & CC; photo editing, drawing, and GIF creation)",
     },
     {
       id: 3,
-      img: jsIcon,
+      img: paintingIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Canva, for internal documents, slide decks, and digital content creation",
     },
     {
       id: 4,
@@ -179,7 +190,7 @@ export default {
 
   promotionHeading: "Heading",
   promotionPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "Hi I’m Mia. I love learning about life through creative mediums and want to produce interesting content for others. Born into a half British half Algerian family, my mathematically average origin is Tournus in France according to whatshalfway.com.",
   // End Promotion Section -----------------
 
   //   Contact Section --------------
@@ -187,14 +198,14 @@ export default {
   contactSubHeading: "Let's create your next experience together",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/chetanverma16" },
+    { img: facebookIcon, url: "https://www.facebook.com/MiaBellouere" },
     {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
+      img: mediumIcon,
+      url: "https://medium.com/@belloueremia",
     },
     {
-      img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
+      img: linkedinIcon,
+      url: "https://www.linkedin.com/in/miabellouere/?originalSubdomain=uk",
     },
     {
       img: instagramIcon,
